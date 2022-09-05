@@ -355,3 +355,4 @@ $(window).on("resize", function () {
   
 }).resize();
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
